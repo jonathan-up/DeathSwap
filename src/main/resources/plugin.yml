@@ -1,0 +1,13 @@
+name: DeathSwap
+version: '${project.version}'
+main: cn.j0n4than.mc.deathswap.DeathSwap
+api-version: 1.13
+prefix: DeathSwap
+authors: [ JonathanL ]
+description: A mini game for spigot server
+website: https://www.j0n4than.cn
+commands:
+  ds:
+    description: swap game
+    usage: /ds
+    permission: op

@@ -1,0 +1,55 @@
+lang:
+  usage: 'usage'
+  usage_ds_p1: 'Select player one'
+  usage_ds_p2: 'Select player two'
+  usage_ds_ready_time: 'Set the time for ready. unit: sec'
+  usage_ds_countdown: 'Set the time for each swap. unit: sec'
+  usage_ds_check: 'Check player and game status'
+  usage_ds_start: 'Start game'
+  usage_ds_stop: 'Stop game'
+
+  start_already_started: 'The game has already started'
+  start_has_not_started: 'The game has not started'
+  start_player_not_found: 'Player does not exist or is not online'
+
+  start_swap: 'Swap!!!'
+  set_p1: 'Player one is set as: %player%'
+  set_p2: 'Player two is set as: %player%'
+  unselect_p1: 'Deselect player one'
+  unselect_p2: 'Deselect player two'
+  player_can_not_be_same_one: 'Player one and Player two cannot be the same person'
+
+  ready_time_set: 'Set the time for ready to be %s% seconds'
+  ready_time_sec_must_be_int: 'The value of sec must be a integer'
+  ready_time_sec_must_bigger_than_1: 'The value of sec can not smaller than 1'
+
+  countdown_set: 'Set the time for each swap to be %s% seconds'
+  countdown_sec_must_be_int: 'The value of sec must be a integer'
+  countdown_sec_must_bigger_than_5: 'The value of sec can not smaller than 1'
+
+
+  check_player_in_game: 'Player in game: '
+  check_player_one: 'Player one: %player%'
+  check_player_two: 'Player two: %player%'
+  check_null: 'null'
+  check_game_status: 'Game status: '
+  check_status_started: 'Started'
+  check_status_waiting: 'Waiting'
+  check_ready_time: 'Ready time: %s% seconds'
+  check_countdown: 'Countdown: %s% seconds'
+
+  start_cannot_start_not_enough_players: 'Cannot start, not enough players'
+
+  bar_waiting_start: 'Waiting start'
+  bar_ready: 'Ready'
+  bar_ready_time: 'Ready - %sec%s'
+  bar_start: 'Start'
+  bar_start_time: 'Start - swap in %sec%s'
+
+  player1_select_quit: 'Player one left server, please reselect player one'
+  player2_select_quit: 'Player two left server, please reselect player two'
+
+  game_over: 'Game Over'
+  game_over_forced: 'Game forced to end'
+  you_win: 'You win!!!'
+  winner: 'Winner: %player%'
