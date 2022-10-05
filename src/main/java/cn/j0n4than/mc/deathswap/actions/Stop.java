@@ -37,6 +37,9 @@ public class Stop implements Action {
             DeathSwap.swapTask.cancel();
         }
 
+        DeathSwap.waitingBar.addPlayer(DeathSwap.playerOne);
+        DeathSwap.waitingBar.addPlayer(DeathSwap.playerTwo);
+
         DeathSwap.playerOne.sendTitle(ChatColor.RED + plugin.lang("game_over_forced"), null, 10, 60, 10);
         DeathSwap.playerTwo.sendTitle(ChatColor.RED + plugin.lang("game_over_forced"), null, 10, 60, 10);
 
