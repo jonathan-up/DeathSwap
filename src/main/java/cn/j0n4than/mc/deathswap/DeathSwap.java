@@ -1,5 +1,6 @@
 package cn.j0n4than.mc.deathswap;
 
+import cn.j0n4than.mc.deathswap.bstats.Metrics;
 import cn.j0n4than.mc.deathswap.commands.Ds;
 import cn.j0n4than.mc.deathswap.listeners.PlayerListener;
 import cn.j0n4than.mc.deathswap.task.ReadyTask;
@@ -79,6 +80,9 @@ public class DeathSwap extends JavaPlugin {
 
     @Override
     public void onEnable() {
+
+        new Metrics(this, 16596);
+
         this.getLogger().info("A game for spigot server");
         this.getLogger().info("Made by Jonathan with love");
         this.saveDefaultConfig();
